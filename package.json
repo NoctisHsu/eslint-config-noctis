@@ -1,0 +1,48 @@
+{
+  "name": "eslint-config-noctis",
+  "version": "1.0.0",
+  "description": "Shareable eslint configs",
+  "main": "./out/index.js",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint 'src/**/*.{js,ts,tsx}'",
+    "lint:fix": "eslint 'src/**/*.{js,ts,tsx}' --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NoctisHsu/eslint-config-noctis.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NoctisHsu/eslint-config-noctis/issues"
+  },
+  "homepage": "https://github.com/NoctisHsu/eslint-config-noctis#readme",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.24.0",
+    "@typescript-eslint/parser": "^4.24.0",
+    "eslint": "^7.27.0",
+    "eslint-config-airbnb": "18.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-import-resolver-typescript": "^2.4.0",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-import": "^2.23.3",
+    "eslint-plugin-jest": "^24.3.6",
+    "eslint-plugin-jsdoc": "^34.8.2",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-typescript-sort-keys": "^1.6.0",
+    "prettier": "^2.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^13.13.52",
+    "@types/react": "^16.14.6",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-react": "^7.27.1",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "jest": "^27.4.3",
+    "react": "^16.14.0",
+    "typescript": "^4.2.4"
+  }
+}
