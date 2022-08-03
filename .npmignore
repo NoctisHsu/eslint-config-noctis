@@ -1,0 +1,14 @@
+.vscode
+src/**/*.ts
+src/**/*.tsx
+test
+.eslintigonre
+.eslintrc.js
+.gitignore
+.gitlab-ci.yml
+.npmignore
+.prettierignore
+tsconfig.json
+wallaby.js
+out/react
+out/typescript
